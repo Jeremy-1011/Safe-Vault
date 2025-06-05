@@ -1,0 +1,17 @@
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login</h2>
+<form method="post" asp-controller="Auth" asp-action="Login">
+    <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" name="Username" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" name="Password" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-success">Login</button>
+</form>

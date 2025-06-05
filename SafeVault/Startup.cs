@@ -1,0 +1,1 @@
+// Startup not needed in minimal API setup
